@@ -1,9 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started:
-1. You’ll need Node.js version 10.13 or later. Latest LTS version recommended (14.15.4).
-2. Clone `git@github.com:puigandrew1/nextjs-demo.git`
-3. Run `yarn create next-app`
+1. You’ll: need Node.js version 10.13 or later. Latest LTS version recommended (14.15.4).
+2. Clone: `git clone git@github.com:puigandrew1/nextjs-demo.git`
+3. Install: `yarn install`
 
 ## Pages:
 - In Next.js, a page is a React component exported from a `.js` file in the pages directory. Each page is associated with a route based on its file name.
