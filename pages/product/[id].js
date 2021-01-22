@@ -18,23 +18,23 @@ const Product = () => {
 
       <div>
 
-        {/* Absolute path to the public directory for our logo */}
-        <img src="/svg/logo.svg" alt="Thinx Logo" className={styles.logo} />
+        {/* Link component with client-side navigation */}
+        <Link href="/">
+          <a className={styles.logo}>
+            {/* Absolute path to the public directory for our logo */}
+            <img src="/svg/logo.svg" alt="Thinx Logo" />
+          </a>
+        </Link>
 
         {/* Using router we can access data based on the product slug */}
-        <div>Product info for {id}.</div>
+        <div className={styles.p}>Product info for {id}.</div>
+        <p className={styles.label}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magni porro ex esse, voluptas quidem perspiciatis maxime labore at assumenda quaerat hic repudiandae accusantium voluptatum! Quidem fugiat labore ratione soluta.</p>
 
         {/* POST form submission to our email API endpoint. */}
         <form className={styles.form} method="POST" action="http://localhost:3000/api/email">
-          <p>Pre-order this now!</p>
-          <input type="email" name="email" defaultValue="andrew.lpuig@gmail.com" />
+          <input type="email" name="email" autoComplete="off" defaultValue="andrew@shethinx.com" className={styles.input} placeholder="Your email please" />
           <button type="submit" className={styles.btn}>Submit</button>
         </form>
-
-        {/* Link component with client-side navigation */}
-        <Link href="/">
-          <a className={styles.uglyButton}>Home</a>
-        </Link>
 
       </div>
     </Layout>
