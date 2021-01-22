@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from '../../styles/Product.module.css'
-import Layout from '../../components/layout'
+import Layout from '../../components/Layout'
 
 // Product page.
 const Product = () => {
