@@ -1,0 +1,21 @@
+.uglyButton {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+.btn {
+
+}
+
+.logo {
+  height: 35px;
+  margin-bottom: 50px;
+}
